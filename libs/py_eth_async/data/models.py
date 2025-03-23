@@ -156,7 +156,7 @@ class Networks:
     # Mainnets
     Ethereum = Network(
         name='ethereum',
-        rpc='https://rpc.ankr.com/eth',
+        rpc=config.ETHEREUM_API_KEY,
         chain_id=1,
         tx_type=2,
         coin_symbol='ETH',
