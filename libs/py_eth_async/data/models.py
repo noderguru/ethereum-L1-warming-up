@@ -161,7 +161,7 @@ class Networks:
         tx_type=2,
         coin_symbol='ETH',
         explorer='https://etherscan.io/',
-        api=API(key=config.ETHEREUM_API_KEY, url='https://api.etherscan.io/api', docs='https://docs.etherscan.io/'),
+        api=API(key=config.ETHERSCAN_API_KEY, url='https://api.etherscan.io/api', docs='https://docs.etherscan.io/'),
         dex=DEX(
             name='uniswap_v2', factory='0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f',
             router='0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D'
