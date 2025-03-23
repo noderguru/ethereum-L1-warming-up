@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 ETHEREUM_API_KEY = str(os.getenv('ETHEREUM_API_KEY'))
+ETHERSCAN_API_KEY = os.getenv("ETHERSCAN_API_KEY")
 ARBITRUM_API_KEY = str(os.getenv('ARBITRUM_API_KEY'))
 OPTIMISM_API_KEY = str(os.getenv('OPTIMISM_API_KEY'))
 BSC_API_KEY = str(os.getenv('BSC_API_KEY'))
